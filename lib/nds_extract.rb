@@ -24,7 +24,7 @@ def directors_totals(nds)
   result = {}
   director_count = 0
   while director_count < nds.length do
-    result[director_name(nds, director_count)] += gross_for_director(director_data)
+    result[director_name(nds, director_count)] => gross_for_director(director_data)
     director_count += 1
   end
   return result
