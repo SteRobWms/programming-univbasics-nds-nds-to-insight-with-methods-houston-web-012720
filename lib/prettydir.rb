@@ -237,4 +237,4 @@ require 'directors_database'
      :worldwide_gross=>58620973,
      :release_year=>1996}]}]
 
-puts directors_database[0][:name]
+p directors_database[0][:name]
