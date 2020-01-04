@@ -1,5 +1,5 @@
-# $LOAD_PATH.unshift(File.dirname(__FILE__))
-# require 'directors_database'
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+require 'directors_database'
 # pp directors_database
 
 [{:name=>"Stephen Spielberg",
@@ -236,3 +236,5 @@
      :studio=>"Buena Vista",
      :worldwide_gross=>58620973,
      :release_year=>1996}]}]
+
+puts directors_database[0][:name]
