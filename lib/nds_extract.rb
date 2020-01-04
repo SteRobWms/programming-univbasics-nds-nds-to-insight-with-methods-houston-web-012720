@@ -27,7 +27,5 @@ end
 #     result[director_name(nds, director_count)] = gross_for_director(director_name)
 #     director_count += 1
 #   end
-  return result
-end
-
-print directors_totals(directors_database)
+#   return result
+# end
