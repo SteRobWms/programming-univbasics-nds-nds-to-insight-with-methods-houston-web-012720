@@ -14,9 +14,9 @@ def gross_for_director(director_data)
 end
 
 def director_name(nds, director_count)
-  return nds[director_count][:name]
+  nds[director_count][:name]
 end
-  # Write a method that, given an NDS creates a new Hash
+# Write a method that, given an NDS creates a new Hash
 # The return value should be like:
 #
 # { directorOne => allTheMoneyTheyMade, ... }
