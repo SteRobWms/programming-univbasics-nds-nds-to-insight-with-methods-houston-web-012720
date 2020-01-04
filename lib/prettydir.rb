@@ -240,7 +240,7 @@ require 'directors_database'
 p directors_database[0][:name]
 
 def director_name(nds, director_count)
-  return nds[director_count][:name]
+  nds[director_count][:name]
 end
 
 puts director_name(directors_database, 0)
