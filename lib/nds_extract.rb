@@ -20,13 +20,13 @@ end
 # The return value should be like:
 #
 # { directorOne => allTheMoneyTheyMade, ... }
-def directors_totals(nds)
-  result = {}
-  director_count = 0
-  while director_count < nds.length do
-    result[director_name(nds, director_count)] = gross_for_director(director_name)
-    director_count += 1
-  end
+# def directors_totals(nds)
+#   result = {}
+#   director_count = 0
+#   while director_count < nds.length do
+#     result[director_name(nds, director_count)] = gross_for_director(director_name)
+#     director_count += 1
+#   end
   return result
 end
 
