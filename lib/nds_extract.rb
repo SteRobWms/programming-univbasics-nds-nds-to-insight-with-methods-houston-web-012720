@@ -5,6 +5,7 @@ require 'directors_database'
 # using director_data as input
 def gross_for_director(director_data)
 
+
 end
 
 # Write a method that, given an NDS creates a new Hash
@@ -15,3 +16,5 @@ def directors_totals(nds)
   result = {}
   nil
 end
+
+pp directors_database
