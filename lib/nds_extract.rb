@@ -23,6 +23,8 @@ def directors_totals(nds)
   return result
 end
 
+# The followign returns TypeError: no implicit conversion of Symbol into Inteter
+# Examine later to understand why
 # def director_name(nds, director_count)
 #   nds[director_count][:name]
 # end
